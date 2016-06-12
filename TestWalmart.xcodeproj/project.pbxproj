@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5BE2B89C19005B97114BFF7 /* libPods-TestWalmart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE6F4BF4CCD6D7BA6136F80 /* libPods-TestWalmart.a */; };
+		DD0D0DE41D0C9EE800AA664F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0DE31D0C9EE800AA664F /* main.m */; };
+		DD0D0DE71D0C9EE800AA664F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0DE61D0C9EE800AA664F /* AppDelegate.m */; };
+		DD0D0DEA1D0C9EE800AA664F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0DE91D0C9EE800AA664F /* ViewController.m */; };
+		DD0D0DED1D0C9EE800AA664F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D0DEB1D0C9EE800AA664F /* Main.storyboard */; };
+		DD0D0DEF1D0C9EE800AA664F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0D0DEE1D0C9EE800AA664F /* Assets.xcassets */; };
+		DD0D0DF21D0C9EE800AA664F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D0DF01D0C9EE800AA664F /* LaunchScreen.storyboard */; };
+		DD0D0DFF1D0CAA7D00AA664F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0DFE1D0CAA7D00AA664F /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E021D0CAB8600AA664F /* WLTProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E011D0CAB8600AA664F /* WLTProduct.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E061D0CAC8A00AA664F /* WLTProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E051D0CAC8A00AA664F /* WLTProductCell.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E0C1D0CAD3700AA664F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E0B1D0CAD3700AA664F /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E111D0CAE0100AA664F /* WLTNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E101D0CAE0100AA664F /* WLTNetwork.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E141D0D2BDF00AA664F /* WLTProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E131D0D2BDF00AA664F /* WLTProductViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E171D0D378600AA664F /* WLTProductDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E161D0D378600AA664F /* WLTProductDetailView.m */; settings = {ASSET_TAGS = (); }; };
+		DD0D0E1A1D0DFE9500AA664F /* WLTRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D0E191D0DFE9400AA664F /* WLTRatingView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036735EF6D423AC2465E3B4D /* Pods-TestWalmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWalmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestWalmart/Pods-TestWalmart.debug.xcconfig"; sourceTree = "<group>"; };
+		0BE6F4BF4CCD6D7BA6136F80 /* libPods-TestWalmart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestWalmart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6354DED5D2A42A10BCEF9C21 /* Pods-TestWalmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWalmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestWalmart/Pods-TestWalmart.release.xcconfig"; sourceTree = "<group>"; };
+		DD0D0DDF1D0C9EE800AA664F /* TestWalmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWalmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0D0DE31D0C9EE800AA664F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD0D0DE51D0C9EE800AA664F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD0D0DE61D0C9EE800AA664F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD0D0DE81D0C9EE800AA664F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD0D0DE91D0C9EE800AA664F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD0D0DEC1D0C9EE800AA664F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD0D0DEE1D0C9EE800AA664F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD0D0DF11D0C9EE800AA664F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD0D0DF31D0C9EE800AA664F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0D0DFD1D0CAA7D00AA664F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		DD0D0DFE1D0CAA7D00AA664F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		DD0D0E001D0CAB8600AA664F /* WLTProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTProduct.h; sourceTree = "<group>"; };
+		DD0D0E011D0CAB8600AA664F /* WLTProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTProduct.m; sourceTree = "<group>"; };
+		DD0D0E031D0CAB9E00AA664F /* WLTGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLTGlobal.h; sourceTree = "<group>"; };
+		DD0D0E041D0CAC8A00AA664F /* WLTProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTProductCell.h; sourceTree = "<group>"; };
+		DD0D0E051D0CAC8A00AA664F /* WLTProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTProductCell.m; sourceTree = "<group>"; };
+		DD0D0E0A1D0CAD3700AA664F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		DD0D0E0B1D0CAD3700AA664F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		DD0D0E0D1D0CAD5700AA664F /* WLTConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLTConfig.h; sourceTree = "<group>"; };
+		DD0D0E0F1D0CAE0100AA664F /* WLTNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTNetwork.h; sourceTree = "<group>"; };
+		DD0D0E101D0CAE0100AA664F /* WLTNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTNetwork.m; sourceTree = "<group>"; };
+		DD0D0E121D0D2BDF00AA664F /* WLTProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTProductViewController.h; sourceTree = "<group>"; };
+		DD0D0E131D0D2BDF00AA664F /* WLTProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTProductViewController.m; sourceTree = "<group>"; };
+		DD0D0E151D0D378600AA664F /* WLTProductDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTProductDetailView.h; sourceTree = "<group>"; };
+		DD0D0E161D0D378600AA664F /* WLTProductDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTProductDetailView.m; sourceTree = "<group>"; };
+		DD0D0E181D0DFE9400AA664F /* WLTRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTRatingView.h; sourceTree = "<group>"; };
+		DD0D0E191D0DFE9400AA664F /* WLTRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTRatingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0D0DDC1D0C9EE800AA664F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BE2B89C19005B97114BFF7 /* libPods-TestWalmart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8444172909A4A49945FF2FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				036735EF6D423AC2465E3B4D /* Pods-TestWalmart.debug.xcconfig */,
+				6354DED5D2A42A10BCEF9C21 /* Pods-TestWalmart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD0D0DD61D0C9EE800AA664F = {
+			isa = PBXGroup;
+			children = (
+				DD0D0DE11D0C9EE800AA664F /* TestWalmart */,
+				DD0D0DE01D0C9EE800AA664F /* Products */,
+				D8444172909A4A49945FF2FF /* Pods */,
+				EB6FC9357E6F1CCFC3BB97B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0D0DE01D0C9EE800AA664F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0DDF1D0C9EE800AA664F /* TestWalmart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0D0DE11D0C9EE800AA664F /* TestWalmart */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0DF91D0CAA6F00AA664F /* Categories */,
+				DD0D0E0E1D0CADD900AA664F /* Utilities */,
+				DD0D0DFB1D0CAA6F00AA664F /* Models */,
+				DD0D0DFC1D0CAA6F00AA664F /* Views */,
+				DD0D0DFA1D0CAA6F00AA664F /* Controllers */,
+				DD0D0DE51D0C9EE800AA664F /* AppDelegate.h */,
+				DD0D0DE61D0C9EE800AA664F /* AppDelegate.m */,
+				DD0D0DE81D0C9EE800AA664F /* ViewController.h */,
+				DD0D0DE91D0C9EE800AA664F /* ViewController.m */,
+				DD0D0DEB1D0C9EE800AA664F /* Main.storyboard */,
+				DD0D0DEE1D0C9EE800AA664F /* Assets.xcassets */,
+				DD0D0DF01D0C9EE800AA664F /* LaunchScreen.storyboard */,
+				DD0D0DF31D0C9EE800AA664F /* Info.plist */,
+				DD0D0DE21D0C9EE800AA664F /* Supporting Files */,
+			);
+			path = TestWalmart;
+			sourceTree = "<group>";
+		};
+		DD0D0DE21D0C9EE800AA664F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0DE31D0C9EE800AA664F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD0D0DF91D0CAA6F00AA664F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0DFD1D0CAA7D00AA664F /* UIView+Frame.h */,
+				DD0D0DFE1D0CAA7D00AA664F /* UIView+Frame.m */,
+				DD0D0E0A1D0CAD3700AA664F /* UIColor+Hex.h */,
+				DD0D0E0B1D0CAD3700AA664F /* UIColor+Hex.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DD0D0DFA1D0CAA6F00AA664F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0E121D0D2BDF00AA664F /* WLTProductViewController.h */,
+				DD0D0E131D0D2BDF00AA664F /* WLTProductViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD0D0DFB1D0CAA6F00AA664F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0E001D0CAB8600AA664F /* WLTProduct.h */,
+				DD0D0E011D0CAB8600AA664F /* WLTProduct.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD0D0DFC1D0CAA6F00AA664F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0E041D0CAC8A00AA664F /* WLTProductCell.h */,
+				DD0D0E051D0CAC8A00AA664F /* WLTProductCell.m */,
+				DD0D0E151D0D378600AA664F /* WLTProductDetailView.h */,
+				DD0D0E161D0D378600AA664F /* WLTProductDetailView.m */,
+				DD0D0E181D0DFE9400AA664F /* WLTRatingView.h */,
+				DD0D0E191D0DFE9400AA664F /* WLTRatingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD0D0E0E1D0CADD900AA664F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D0E031D0CAB9E00AA664F /* WLTGlobal.h */,
+				DD0D0E0D1D0CAD5700AA664F /* WLTConfig.h */,
+				DD0D0E0F1D0CAE0100AA664F /* WLTNetwork.h */,
+				DD0D0E101D0CAE0100AA664F /* WLTNetwork.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EB6FC9357E6F1CCFC3BB97B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE6F4BF4CCD6D7BA6136F80 /* libPods-TestWalmart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0D0DDE1D0C9EE800AA664F /* TestWalmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0D0DF61D0C9EE800AA664F /* Build configuration list for PBXNativeTarget "TestWalmart" */;
+			buildPhases = (
+				81C95DDFF7009747FD190E99 /* [CP] Check Pods Manifest.lock */,
+				DD0D0DDB1D0C9EE800AA664F /* Sources */,
+				DD0D0DDC1D0C9EE800AA664F /* Frameworks */,
+				DD0D0DDD1D0C9EE800AA664F /* Resources */,
+				C1A73043CA1ED4659496A3F6 /* [CP] Embed Pods Frameworks */,
+				879C880A6CE7FC03813D23AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWalmart;
+			productName = TestWalmart;
+			productReference = DD0D0DDF1D0C9EE800AA664F /* TestWalmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0D0DD71D0C9EE800AA664F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = AlexisOyama;
+				TargetAttributes = {
+					DD0D0DDE1D0C9EE800AA664F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DD0D0DDA1D0C9EE800AA664F /* Build configuration list for PBXProject "TestWalmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0D0DD61D0C9EE800AA664F;
+			productRefGroup = DD0D0DE01D0C9EE800AA664F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0D0DDE1D0C9EE800AA664F /* TestWalmart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0D0DDD1D0C9EE800AA664F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0D0DF21D0C9EE800AA664F /* LaunchScreen.storyboard in Resources */,
+				DD0D0DEF1D0C9EE800AA664F /* Assets.xcassets in Resources */,
+				DD0D0DED1D0C9EE800AA664F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81C95DDFF7009747FD190E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		879C880A6CE7FC03813D23AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestWalmart/Pods-TestWalmart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A73043CA1ED4659496A3F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestWalmart/Pods-TestWalmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0D0DDB1D0C9EE800AA664F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0D0E141D0D2BDF00AA664F /* WLTProductViewController.m in Sources */,
+				DD0D0E111D0CAE0100AA664F /* WLTNetwork.m in Sources */,
+				DD0D0DFF1D0CAA7D00AA664F /* UIView+Frame.m in Sources */,
+				DD0D0E171D0D378600AA664F /* WLTProductDetailView.m in Sources */,
+				DD0D0DEA1D0C9EE800AA664F /* ViewController.m in Sources */,
+				DD0D0DE71D0C9EE800AA664F /* AppDelegate.m in Sources */,
+				DD0D0E021D0CAB8600AA664F /* WLTProduct.m in Sources */,
+				DD0D0E0C1D0CAD3700AA664F /* UIColor+Hex.m in Sources */,
+				DD0D0DE41D0C9EE800AA664F /* main.m in Sources */,
+				DD0D0E061D0CAC8A00AA664F /* WLTProductCell.m in Sources */,
+				DD0D0E1A1D0DFE9500AA664F /* WLTRatingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD0D0DEB1D0C9EE800AA664F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0D0DEC1D0C9EE800AA664F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD0D0DF01D0C9EE800AA664F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0D0DF11D0C9EE800AA664F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD0D0DF41D0C9EE800AA664F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD0D0DF51D0C9EE800AA664F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0D0DF71D0C9EE800AA664F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036735EF6D423AC2465E3B4D /* Pods-TestWalmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestWalmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexisOyama.TestWalmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD0D0DF81D0C9EE800AA664F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6354DED5D2A42A10BCEF9C21 /* Pods-TestWalmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestWalmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexisOyama.TestWalmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0D0DDA1D0C9EE800AA664F /* Build configuration list for PBXProject "TestWalmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D0DF41D0C9EE800AA664F /* Debug */,
+				DD0D0DF51D0C9EE800AA664F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0D0DF61D0C9EE800AA664F /* Build configuration list for PBXNativeTarget "TestWalmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D0DF71D0C9EE800AA664F /* Debug */,
+				DD0D0DF81D0C9EE800AA664F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0D0DD71D0C9EE800AA664F /* Project object */;
+}
